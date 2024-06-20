@@ -1,0 +1,17 @@
+{
+    "name": "products/intranet-venda-produtos",
+    "description": "Intranet de venda de produtos",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.2.12",
+        "slim/slim": "^4.0",
+        "twig/twig": "^3.0",
+        "monolog/monolog": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
