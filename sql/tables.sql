@@ -23,7 +23,7 @@ CREATE TABLE
   ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci
 
 
-  CREATE TABLE
+CREATE TABLE
   `sales` (
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
     `cliente` varchar(255) DEFAULT NULL,
@@ -35,8 +35,9 @@ CREATE TABLE
     `valorUnitario` varchar(255) DEFAULT NULL,
     `data_cadastro` datetime DEFAULT current_timestamp(),
     `data_deleted` date DEFAULT NULL,
+    `id_venda` varchar(100) DEFAULT NULL,
     PRIMARY KEY (`id`)
-  ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci
+  ) ENGINE = InnoDB AUTO_INCREMENT = 9 DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci
 
 
   CREATE TABLE 
