@@ -213,6 +213,29 @@ Se o Composer ainda não estiver instalado na sua máquina, você pode seguir as
 
 composer self-update
 
+# Instalação e Configuração do Select2
+
+Este guia fornece instruções passo a passo para instalar e configurar o Select2 em seu projeto usando Composer.
+
+## Pré-requisitos
+
+- Composer instalado em seu sistema.
+- Um projeto PHP com Composer já configurado.
+
+## Passos para Instalação
+
+### 1. Instalar o Select2 via Composer
+
+Execute o seguinte comando no terminal para instalar o Select2:
+
+composer require select2/select2
+
+### 2. Instalar o Tema Bootstrap 4 para Select2
+
+Para aplicar o tema Bootstrap 4 ao Select2, execute:
+
+composer require ttskch/select2-bootstrap4-theme
+
 ### Correções
 
 as tabelas devem ser recriadas ao testar
