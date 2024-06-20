@@ -15,8 +15,6 @@ class ValidatePostSize
      */
     public function handle($request, Closure $next)
     {
-        // Sua lógica de validação do tamanho do post aqui
-        // Exemplo: verificar se o tamanho do post é menor que um limite
 
         if ($request->server('CONTENT_LENGTH') > 1000000) {
             return response('Payload too large', 413);
