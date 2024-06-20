@@ -213,6 +213,12 @@ Se o Composer ainda não estiver instalado na sua máquina, você pode seguir as
 
 composer self-update
 
+### Correções
+
+as tabelas devem ser recriadas ao testar
+
+O servidor Laravel está na branch master. Devido a um problema na configuração do CORS, mantivemos o PHP puro, mas o código está disponível na branch master para avaliação.
+
 ## Tecnologias Utilizadas
 
 Este sistema foi desenvolvido utilizando as seguintes tecnologias:
