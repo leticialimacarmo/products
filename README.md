@@ -194,6 +194,25 @@ Para excluir uma venda do sistema:
 
 No diretório `sql` estão disponíveis as queries SQL necessárias para a criação das tabelas utilizadas por este sistema. Essas queries são fundamentais para a estruturação do banco de dados e devem ser executadas antes de iniciar o uso do sistema. Certifique-se de executar as queries na ordem correta para garantir que as tabelas sejam criadas adequadamente.
 
+## Instalação e Atualização do Composer
+
+Para contribuir ou executar este projeto localmente, siga as instruções abaixo para instalar e atualizar o Composer.
+
+### Instalação do Composer
+
+Se o Composer ainda não estiver instalado na sua máquina, você pode seguir as instruções abaixo:
+
+1. Acesse o site oficial do Composer para obter as instruções de instalação adequadas ao seu sistema operacional:
+   [https://getcomposer.org/download/](https://getcomposer.org/download/)
+
+2. Siga as instruções fornecidas no site para baixar e instalar o Composer.
+
+### Atualização do Composer
+
+É recomendável manter o Composer atualizado para garantir que você esteja usando a versão mais recente e estável. Para atualizar o Composer, execute o seguinte comando no seu terminal:
+
+composer self-update
+
 ## Tecnologias Utilizadas
 
 Este sistema foi desenvolvido utilizando as seguintes tecnologias:
