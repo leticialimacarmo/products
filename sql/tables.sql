@@ -39,11 +39,11 @@ CREATE TABLE
     PRIMARY KEY (`id`)
   ) ENGINE = InnoDB AUTO_INCREMENT = 9 DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci
 
-
-  CREATE TABLE 
+CREATE TABLE
   `payments` (
-    `id` INT AUTO_INCREMENT PRIMARY KEY,
-    `numero` INT NOT NULL,
-    `valorParcela` DECIMAL(10, 2) NOT NULL,
-    `dataVencimento` DATE NOT NULL
-  );
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `numero` int(11) NOT NULL,
+    `valorParcela` varchar(100) NOT NULL,
+    `dataVencimento` datetime NOT NULL,
+    PRIMARY KEY (`id`)
+  ) ENGINE = InnoDB AUTO_INCREMENT = 18 DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci
